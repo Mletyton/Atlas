@@ -1,0 +1,753 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.caja-principal {
+    background-image: url(img/banner-bk.jpg);
+    background-repeat: no-repeat;
+    padding: 100px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.caja-principal img {
+    width: 7%;
+}
+
+.caja-principal h2 {
+    width: 30%;
+    font-size: 250%;
+}
+
+.caja-principal p {
+    width: 75%;
+}
+
+.boton-cta {
+    margin-top: 50px;
+    border-radius: 30px;
+    border: none;
+    width: 130px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: rgb(0, 250, 154);
+}
+
+.caja-proteccion {
+    margin-top: 30px;
+    text-align: center;
+    padding: 3%;
+}
+
+.precio {
+    font-size: 1rem;
+}
+
+.negrita {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.cuadrícula-proteccion {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    padding: 0%;
+}
+
+.caja-caracteristica img {
+    width: 30%;
+}
+
+.caja-caracteristica p {
+    width: 100%;
+}
+
+.seccion-caracteristica-uno {
+    margin-top: 20px;
+    padding: 5%;
+    display: flex;
+    flex-direction: row-reverse;
+    background: linear-gradient(350deg, rgba(0,250,154) 50%, rgba(255,255,255,1) 50%);
+}
+
+.seccion-caracteristica-uno img {
+    width: 40%;
+}
+
+.boton-cta-2 {
+    margin-top: 50px;
+    border-radius: 30px;
+    border: none;
+    width: 130px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: rgb(44, 62, 80);
+    color: white;
+}
+
+.seccion-caracteristica-dos {
+    background-color: rgb(0, 250, 154);
+    padding: 4%;
+    display: flex;
+}
+
+.seccion-caracteristica-dos img {
+    width: 40%;
+}
+
+.boton-cta-3 {
+    margin-top: 50px;
+    border-radius: 30px;
+    border: none;
+    width: 130px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: rgb(44, 62, 80);
+    color: white;
+}
+
+.seccion-precios {
+    padding: 5%;
+    text-align: center;
+}
+
+.cuadrícula-precios {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.tarjeta-precio {
+    padding: 3%;
+}
+
+.tarjeta-precio.premium {
+    background-color: rgb(44, 62, 80);
+    padding: 3%;
+    color: white;
+    border-radius: 2%;
+}
+
+.boton-cta-4 {
+    margin-top: 50px;
+    border-radius: 30px;
+    border: none;
+    width: 130px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.boton-cta-5 {
+    margin-top: 50px;
+    border-radius: 30px;
+    border: none;
+    width: 130px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: rgb(0, 250, 154);
+    border: 1px solid black;
+}
+
+.boton-cta-6 {
+    margin-top: 50px;
+    border-radius: 30px;
+    border: none;
+    width: 130px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.seccion-testimonios {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    padding: 3%;
+    background-color: rgb(235, 237, 239 );
+}
+
+.testimonio-item img {
+    width: 95%;
+}
+
+.seccion-contacto {
+    background-image: url(img/contact-bk.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-start;
+    padding: 6%;
+}
+
+.informacion-contacto {
+    width: 60%;
+    color: white;
+}
+
+.informacion-contacto h2 {
+    font-size: 30px;
+}
+
+.informacion-contacto p {
+    width: 80%;
+}
+
+.boton-cta-7 {
+    border: none;
+    background-color: rgb(0, 250, 154);
+    padding: 10px;
+    border-radius: 30px;
+    width: 230%;
+    margin-top: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.entrada {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.formulario-contacto {
+    color: rgb(0, 250, 154);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.pie-pagina {
+    background-color: rgb(2, 36, 59);
+    display: flex;
+    padding: 3%;
+}
+
+.pie-pagina img {
+    width: 65%;
+}
+
+.texto-pie-pagina {
+    display: flex;
+    width: 85%;
+    color: white;
+    margin-top: 15px;
+}
+
+.iconos-sociales {
+    display: flex;
+    width: 15%;
+}
+
+.icono-social {
+    margin-right: 10px;
+}
+
+.campo-entrada {
+    background-color: transparent;
+    border-color: rgb(0, 250, 154);
+    width: 100%;
+    padding: 6px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.nombre {
+   width: 45%
+
+}
+
+.email {
+    width: 50%;
+}
+
+.mensaje {
+    height: 100px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.caja-principal {
+    background-image: url(img/banner-bk.jpg);
+    background-repeat: no-repeat;
+    padding: 100px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.caja-principal img {
+    width: 7%;
+}
+
+.caja-principal h2 {
+    width: 30%;
+    font-size: 250%;
+}
+
+.caja-principal p {
+    width: 75%;
+}
+
+.boton-cta {
+    margin-top: 50px;
+    border-radius: 30px;
+    border: none;
+    width: 130px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: rgb(0, 250, 154);
+}
+
+.caja-proteccion {
+    margin-top: 30px;
+    text-align: center;
+    padding: 3%;
+}
+
+.precio {
+    font-size: 1rem;
+}
+
+.negrita {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.cuadrícula-proteccion {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    padding: 0%;
+}
+
+.caja-caracteristica img {
+    width: 30%;
+}
+
+.caja-caracteristica p {
+    width: 100%;
+}
+
+.seccion-caracteristica-uno {
+    margin-top: 20px;
+    padding: 5%;
+    display: flex;
+    flex-direction: row-reverse;
+    background: linear-gradient(350deg, rgba(0,250,154) 50%, rgba(255,255,255,1) 50%);
+}
+
+.seccion-caracteristica-uno img {
+    width: 40%;
+}
+
+.boton-cta-2 {
+    margin-top: 50px;
+    border-radius: 30px;
+    border: none;
+    width: 130px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: rgb(44, 62, 80);
+    color: white;
+}
+
+.seccion-caracteristica-dos {
+    background-color: rgb(0, 250, 154);
+    padding: 4%;
+    display: flex;
+}
+
+.seccion-caracteristica-dos img {
+    width: 40%;
+}
+
+.boton-cta-3 {
+    margin-top: 50px;
+    border-radius: 30px;
+    border: none;
+    width: 130px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: rgb(44, 62, 80);
+    color: white;
+}
+
+.seccion-precios {
+    padding: 5%;
+    text-align: center;
+}
+
+.cuadrícula-precios {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.tarjeta-precio {
+    padding: 3%;
+}
+
+.tarjeta-precio.premium {
+    background-color: rgb(44, 62, 80);
+    padding: 3%;
+    color: white;
+    border-radius: 2%;
+}
+
+.boton-cta-4 {
+    margin-top: 50px;
+    border-radius: 30px;
+    border: none;
+    width: 130px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.boton-cta-5 {
+    margin-top: 50px;
+    border-radius: 30px;
+    border: none;
+    width: 130px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: rgb(0, 250, 154);
+    border: 1px solid black;
+}
+
+.boton-cta-6 {
+    margin-top: 50px;
+    border-radius: 30px;
+    border: none;
+    width: 130px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.seccion-testimonios {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    padding: 3%;
+    background-color: rgb(235, 237, 239 );
+}
+
+.testimonio-item img {
+    width: 95%;
+}
+
+.seccion-contacto {
+    background-image: url(img/contact-bk.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-start;
+    padding: 6%;
+}
+
+.informacion-contacto {
+    width: 60%;
+    color: white;
+}
+
+.informacion-contacto h2 {
+    font-size: 30px;
+}
+
+.informacion-contacto p {
+    width: 80%;
+}
+
+.boton-cta-7 {
+    border: none;
+    background-color: rgb(0, 250, 154);
+    padding: 10px;
+    border-radius: 30px;
+    width: 230%;
+    margin-top: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.entrada {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.formulario-contacto {
+    color: rgb(0, 250, 154);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.pie-pagina {
+    background-color: rgb(2, 36, 59);
+    display: flex;
+    padding: 3%;
+}
+
+.pie-pagina img {
+    width: 65%;
+}
+
+.texto-pie-pagina {
+    display: flex;
+    width: 85%;
+    color: white;
+    margin-top: 15px;
+}
+
+.iconos-sociales {
+    display: flex;
+    width: 15%;
+}
+
+.icono-social {
+    margin-right: 10px;
+}
+
+.campo-entrada {
+    background-color: transparent;
+    border-color: rgb(0, 250, 154);
+    width: 100%;
+    padding: 6px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.nombre {
+   width: 45%
+}
+
+.email {
+    width: 50%;
+}
+
+.mensaje {
+    height: 100px;
+}
+
+
+
+/* celulares (352px - 480px) */
+@media (max-width: 480px) {
+    .caja-principal {
+        padding: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .caja-principal img {
+        width: 60%;
+        margin-bottom: 20px;
+    }
+
+    .caja-principal h2 {
+        width: 100%;
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .caja-principal p {
+        width: 100%;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .boton-cta {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .seccion-caracteristica-uno, .seccion-caracteristica-dos {
+        flex-direction: column;
+        padding: 10px;
+        align-items: center;
+    }
+
+    .seccion-caracteristica-uno img,
+    .seccion-caracteristica-dos img {
+        width: 80%;
+    }
+
+    .seccion-precios .cuadrícula-precios {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tarjeta-precio {
+        width: 100%;
+    }
+
+    .seccion-testimonios {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .testimonio-item img {
+        width: 80%;
+    }
+
+    .seccion-contacto {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .informacion-contacto {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .formulario-contacto .entrada {
+        width: 100%;
+    }
+
+    .formulario-contacto button {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .pie-pagina {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .iconos-sociales {
+        justify-content: center;
+    }
+}
+
+/* tabletas (481px - 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+    .caja-principal {
+        padding: 50px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .caja-principal img {
+        width: 50%;
+    }
+
+    .caja-principal h2 {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .caja-principal p {
+        width: 80%;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .boton-cta {
+        width: 80%;
+        font-size: 15px;
+    }
+
+    .seccion-caracteristica-uno, .seccion-caracteristica-dos {
+        flex-direction: column;
+        padding: 20px;
+        align-items: center;
+    }
+
+    .seccion-caracteristica-uno img,
+    .seccion-caracteristica-dos img {
+        width: 60%;
+    }
+
+    .seccion-precios .cuadrícula-precios {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tarjeta-precio {
+        width: 100%;
+    }
+
+    .seccion-testimonios {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .testimonio-item img {
+        width: 80%;
+    }
+
+    .seccion-contacto {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .informacion-contacto {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .formulario-contacto .entrada {
+        width: 100%;
+    }
+
+    .formulario-contacto button {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .pie-pagina {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .iconos-sociales {
+        justify-content: center;
+    }
+}
